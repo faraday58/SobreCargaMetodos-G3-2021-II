@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SobreCargaMetodos-G3-2021-II", "SobreCargaMetodos-G3-2021-II.csproj", "{61752B81-1D2B-4000-9333-D278A9D29380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61752B81-1D2B-4000-9333-D278A9D29380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61752B81-1D2B-4000-9333-D278A9D29380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61752B81-1D2B-4000-9333-D278A9D29380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61752B81-1D2B-4000-9333-D278A9D29380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA70A232-BC51-4F3B-810B-7AC436A730FC}
+	EndGlobalSection
+EndGlobal
