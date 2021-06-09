@@ -43,6 +43,9 @@ namespace SobreCargaMetodos_G3_2021_II
             this.btnSumar2 = new System.Windows.Forms.Button();
             this.txtbSumando32 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtbArreglo = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnArreglo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbSumando1
@@ -159,11 +162,39 @@ namespace SobreCargaMetodos_G3_2021_II
             this.label5.TabIndex = 1;
             this.label5.Text = "+";
             // 
+            // txtbArreglo
+            // 
+            this.txtbArreglo.Location = new System.Drawing.Point(270, 81);
+            this.txtbArreglo.Name = "txtbArreglo";
+            this.txtbArreglo.Size = new System.Drawing.Size(439, 35);
+            this.txtbArreglo.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(125, 81);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 30);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Arreglo";
+            // 
+            // btnArreglo
+            // 
+            this.btnArreglo.Location = new System.Drawing.Point(770, 81);
+            this.btnArreglo.Name = "btnArreglo";
+            this.btnArreglo.Size = new System.Drawing.Size(193, 40);
+            this.btnArreglo.TabIndex = 4;
+            this.btnArreglo.Text = "Mostrar Arreglo";
+            this.btnArreglo.UseVisualStyleBackColor = true;
+            this.btnArreglo.Click += new System.EventHandler(this.btnArreglo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 824);
+            this.ClientSize = new System.Drawing.Size(1018, 411);
+            this.Controls.Add(this.btnArreglo);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSumar2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSumar1);
@@ -177,6 +208,7 @@ namespace SobreCargaMetodos_G3_2021_II
             this.Controls.Add(this.txtbSuma1);
             this.Controls.Add(this.txtbSumando12);
             this.Controls.Add(this.txtbSumando2);
+            this.Controls.Add(this.txtbArreglo);
             this.Controls.Add(this.txtbSumando1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -201,6 +233,9 @@ namespace SobreCargaMetodos_G3_2021_II
         private System.Windows.Forms.Button btnSumar2;
         private System.Windows.Forms.TextBox txtbSumando32;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtbArreglo;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnArreglo;
     }
 }
 
